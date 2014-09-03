@@ -22,8 +22,8 @@ Usage
     $ make run
 
 * Deployment is just as easy with docker. First, provide an SSH key (in
-``secrets/deploy.pem``) and fill in your credentials in
-``secrets/deploy.conf``. Once your secrets are in place, deployment to a
-CoreOS instance should be as simple as::
+  ``secrets/deploy.pem``) and fill in your credentials in
+  ``secrets/deploy.conf``. Once your secrets are in place, deployment to a
+  CoreOS instance should be as simple as::
 
     $ make deploy
